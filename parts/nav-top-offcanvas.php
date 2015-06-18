@@ -1,4 +1,23 @@
-<div class="sticky show-for-medium-up contain-to-grid">
+<div class="meta-wrapper fixed">
+	<div class="meta-bar">
+		<div class="row">
+			<div class="small-4 columns">Stuff goes</div>
+			<div class="small-4 columns">up here</div>
+			<div class="small-4 columns text-right">more stuff</div>
+		</div>
+	</div>
+</div>
+
+<?php if ( is_front ) { get_template_part( 'parts/hero', 'front' ); } ?>
+
+<div class="meta-wrapper sticky show-for-medium-up contain-to-grid">
+	<!--div class="meta-bar" data-0="height: 0;" data-20-top="height: 2em;" data-1-top="height: 0;">
+		<div class="row">
+			<div class="small-4 columns">Stuff goes</div>
+			<div class="small-4 columns">up here</div>
+			<div class="small-4 columns text-right">more stuff</div>
+		</div>
+	</div-->
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
 			<!-- Title Area -->

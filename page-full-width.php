@@ -20,4 +20,6 @@ Template Name: Full Width (No Sidebar)
     
 			</div> <!-- end #content -->
 
+			<div class="pane2"></div>
+
 <?php get_footer(); ?>
