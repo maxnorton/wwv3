@@ -13,8 +13,7 @@
 				</div> <!-- end #container -->
 			</div> <!-- end .inner-wrap -->
 		</div> <!-- end .off-canvas-wrap -->
-		<?php wp_footer(); 
-
-		require_once('/wp-content/themes/wwv3/assets/functions/skrollr-init.php'); ?>
+		<?php wp_footer();
+		get_template_part( 'parts/init', 'skrollr' ); ?>
 	</body>
 </html> <!-- end page -->
