@@ -4,10 +4,10 @@ function pages_grid_classes( $id ) {
 	switch ($id) {
 		case 1:
 		case 4:
-			echo 'small-8 ';
+			echo 'medium-8 ';
 			break;
 		default:
-			echo 'small-4 ';
+			echo 'medium-4 ';
 	}
 }
 

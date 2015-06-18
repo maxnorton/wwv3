@@ -18,7 +18,8 @@
 	$posts = get_pages( $args );
 ?>
 
-<div class="row collapse pages-grid" data-equalizer> <!--Begin Row:--> 
+<div class="pane2">
+	<div class="row pages-grid" data-equalizer> <!--Begin Row:--> 
 
      <?php 
 
@@ -49,11 +50,21 @@
 				</div>
 				
 			</div>
+
+			<?php if ($grid_id == 2) { ?>
+
+				</div>  <!--End Row: --> 
+			</div> <!--End pane -->
+			<div class="pane3">
+				<div class="row pages-grid" data-equalizer> <!--Begin Row:--> 
+
+			<?php } ?>
 		
 	 	<?php endforeach; ?>
 
 </div>  <!--End Row: --> 
-	
+</div> <!--End pane -->	
+
 <?php wp_reset_postdata(); ?>
 					     
 <?php joints_page_navi(); ?>		

@@ -16,15 +16,21 @@ body {}
 .homepage-hero {
 
 	.hero-photo-wrapper {
+		background: transparent url('/wp-content/themes/wwv3/assets/images/river-desat.jpg') no-repeat center center;
+		background-size: cover;
+		color: white;
 		margin: 0 auto;
 		width: 100%;
-		max-height: 68vh;
+		height: 68vh;
 		overflow: hidden;
 	}
 
-	img {
-		height: auto;
-		width: 100%;
+	.hero-content-wrap {
+		margin-top: 23vh;
+	}
+
+	h1 {
+		color: white;
 	}
 
 }
@@ -44,6 +50,30 @@ body {}
 #content {
 	background: transparent url('../images/60degree_gray_@2X-colorized.png');
 	min-height: 300px;
+	border-bottom: 5px solid green;
+}
+
+.pages-grid {
+	padding: 1em 0;
+}
+
+.transpanel,
+.callout.transpanel {
+	margin-bottom: 0;
+	border: 0 none;
+	background-color: transparent;
+}
+
+.row .columns:first-of-type {
+	border-right: 1px solid #ddd;
+}
+
+.pane3 {
+	background: #fffbf8;
+}
+
+.pane2,
+.pane3 {
 }
 
 /*********************
