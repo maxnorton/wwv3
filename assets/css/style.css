@@ -6922,6 +6922,27 @@ GENERAL STYLES
 .pane3 {
   background: #fffbf8; }
 
+.footer {
+  font-family: "corbel", sans-serif;
+  margin-top: 0 !important; }
+  .footer #inner-footer {
+    background-color: #06697c;
+    color: white;
+    max-width: none; }
+    .footer #inner-footer .columns:nth-of-type(2) {
+      max-width: 31.25em; }
+    .footer #inner-footer h3 {
+      color: white;
+      padding-top: 1em; }
+  .footer .lastrow {
+    background-color: #333;
+    color: white;
+    padding: 2em 0; }
+    .footer .lastrow .row {
+      max-width: 62.5em; }
+  .footer .copyright {
+    text-transform: uppercase; }
+
 /*********************
 LINK STYLES
 *********************/
