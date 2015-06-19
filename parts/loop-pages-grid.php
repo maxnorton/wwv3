@@ -18,7 +18,7 @@
 	$posts = get_pages( $args );
 ?>
 
-<div class="pane2">
+<div id="grid-top" class="pane2">
 	<div class="row pages-grid" data-equalizer> <!--Begin Row:--> 
 
      <?php 

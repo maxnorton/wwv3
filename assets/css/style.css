@@ -6916,7 +6916,7 @@ GENERAL STYLES
   border: 0 none;
   background-color: transparent; }
 
-.row .columns:first-of-type {
+.pages-grid .columns:first-of-type {
   border-right: 1px solid #ddd; }
 
 .pane3 {
