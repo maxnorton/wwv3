@@ -26,7 +26,7 @@
 	</nav>
 </div>
 
-<div class="show-for-small-only">
+<div class="show-for-small-only" <?php if ( !is_front_page() ) { echo 'style="padding-top: 22px;"'; } ?>>
 	<nav class="tab-bar">
 		<section class="middle tab-bar-section">
 			<h1 class="title"><?php bloginfo('name'); ?></h1>
