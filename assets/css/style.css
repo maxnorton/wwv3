@@ -6,7 +6,7 @@ Here's where the magic happens. Here is where you import
 all of your Sass files so they can compile into one
 CSS file. 
 ******************************************************************/
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Bitter|Raleway:400,700|Open+Sans:300italic,400italic,700italic,400,300,700");
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -496,7 +496,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1598,7 +1598,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -2026,7 +2026,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3843,7 +3843,7 @@ kbd {
 
 .label {
   display: inline-block;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -4224,7 +4224,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4232,7 +4232,7 @@ ul.pagination {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4486,7 +4486,7 @@ ul.pagination {
 
 .side-nav {
   display: block;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -4507,7 +4507,7 @@ ul.pagination {
         color: #1cc7ff; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4627,7 +4627,7 @@ ul.pagination {
   .sub-nav li {
     color: #999999;
     float: left;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4820,7 +4820,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover,
@@ -5131,7 +5131,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 0.9375rem;
@@ -5687,7 +5687,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -6883,6 +6883,7 @@ GENERAL STYLES
   background: transparent url("/wp-content/themes/wwv3/assets/images/river-desat.jpg") no-repeat center center;
   background-size: cover;
   color: white;
+  font-family: "Raleway", sans-serif;
   margin: 0 auto;
   width: 100%;
   height: 68vh;
@@ -6899,8 +6900,36 @@ GENERAL STYLES
   text-transform: uppercase;
   line-height: 2em; }
 
-.meta-wrapper:not(.fixed) > .meta-bar {
-  x-display: none; }
+.meta-wrapper.fixed {
+  z-index: 999; }
+  .meta-wrapper.fixed a:hover {
+    color: black;
+    text-decoration: underline; }
+
+.main-bar h1 a {
+  font-family: "Bitter", serif;
+  font-size: 1.5em;
+  text-transform: uppercase; }
+
+x-.afg {
+  position: absolute;
+  left: 50%;
+  margin-left: -44px;
+  top: -10px;
+  z-index: 999; }
+
+#inner-content {
+  position: relative;
+  padding-top: 60px !important; }
+
+x-#inner-content:before {
+  background: transparent url("../images/afg.png") no-repeat left top;
+  content: ' ';
+  position: absolute;
+  top: -40px;
+  width: 90px;
+  height: 90px;
+  z-index: 999; }
 
 #content {
   background: transparent url("../images/60degree_gray_@2X-colorized.png");
@@ -7035,7 +7064,7 @@ POSTS & CONTENT STYLES
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -7124,7 +7153,7 @@ COMMENT STYLES
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;

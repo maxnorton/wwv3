@@ -1,10 +1,10 @@
 <section class="homepage-hero hero">
 
-	<div class="hero-photo-wrapper">
+	<div class="hero-photo-wrapper" data-0="background-position-y: 0px;" data-end="background-position-y: 900px;">
 
 		<?php if (get_post_status(20)) { $frontPost = get_post(20); ?>
 			
-			<div class="hero-content-wrap row">
+			<div class="hero-content-wrap row" data-0="opacity: 1;" data-200="opacity: 0;">
 
 				<article id="post-<?php echo $frontPost->ID; ?>" class="post-<?php echo $frontPost->ID; ?> columns small-12 text-center" role="article" itemscope itemtype="http://schema.org/WebPage">
 										
@@ -26,7 +26,6 @@
 			</div>
 
 		<?php } ?>		
-
 	</div>
 
 </section>
