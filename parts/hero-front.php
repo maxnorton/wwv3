@@ -2,7 +2,7 @@
 
 	<div class="hero-photo-wrapper" data-0="background-position-y: 0px;" data-end="background-position-y: 900px;">
 
-		<?php if (get_post_status(20)) { $frontPost = get_post(20); ?>
+		<?php if (get_post_status(17)) { $frontPost = get_post(17); ?>
 			
 			<div class="hero-content-wrap row" data-0="opacity: 1;" data-200="opacity: 0;">
 
