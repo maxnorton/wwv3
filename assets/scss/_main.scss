@@ -62,27 +62,14 @@ body {}
 	}
 }
 
-x-.afg {
-	position: absolute;
-	left: 50%;
-	margin-left: -44px;
-	top: -10px;
-	z-index: 999;
+.tab-bar h1.title {
+	font-family: "Bitter", serif;
+	text-transform: uppercase;
 }
 
 #inner-content {
 	position: relative;
 	padding-top: 60px !important;
-}
-
-x-#inner-content:before {
-	background: transparent url('../images/afg.png') no-repeat left top;
-	content: ' ';
-	position: absolute;
-	top: -40px;
-	width: 90px;
-	height: 90px;
-	z-index: 999;
 }
 
 #content {

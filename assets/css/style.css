@@ -5911,7 +5911,7 @@ blockquote p {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #06697c;
   color: #FFFFFF;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -5929,7 +5929,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-right: solid 1px #1a1a1a;
+  border-right: solid 1px #03343e;
   left: 0; }
 
 .right-small {
@@ -5937,7 +5937,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-left: solid 1px #1a1a1a;
+  border-left: solid 1px #03343e;
   right: 0; }
 
 .tab-bar-section {
@@ -5984,7 +5984,7 @@ blockquote p {
 
 .left-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #06697c;
   bottom: 0;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -6008,7 +6008,7 @@ blockquote p {
 
 .right-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #06697c;
   bottom: 0;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -6035,9 +6035,9 @@ ul.off-canvas-list {
   margin: 0;
   padding: 0; }
   ul.off-canvas-list li label {
-    background: #444444;
+    background: #06697c;
     border-bottom: none;
-    border-top: 1px solid #5e5e5e;
+    border-top: 1px solid #0894af;
     color: #999999;
     display: block;
     font-size: 0.75rem;
@@ -6046,15 +6046,15 @@ ul.off-canvas-list {
     padding: 0.3rem 0.9375rem;
     text-transform: uppercase; }
   ul.off-canvas-list li a {
-    border-bottom: 1px solid #262626;
+    border-bottom: 1px solid #054f5d;
     color: rgba(255, 255, 255, 0.7);
     display: block;
     padding: 0.6666666667rem;
     transition: background 300ms ease; }
     ul.off-canvas-list li a:hover {
-      background: #242424; }
+      background: #044957; }
     ul.off-canvas-list li a:active {
-      background: #242424; }
+      background: #044957; }
 
 .move-right > .inner-wrap {
   -webkit-transform: translate3d(15.625rem, 0, 0);
@@ -6065,7 +6065,7 @@ ul.off-canvas-list {
   transform: translate3d(15.625rem, 0, 0); }
 .move-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0;
   cursor: pointer;
   transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
@@ -6090,7 +6090,7 @@ ul.off-canvas-list {
   transform: translate3d(-15.625rem, 0, 0); }
 .move-left .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0;
   cursor: pointer;
   transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
@@ -6115,7 +6115,7 @@ ul.off-canvas-list {
   z-index: 1003; }
 .offcanvas-overlap .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0;
   cursor: pointer;
   transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
@@ -6140,7 +6140,7 @@ ul.off-canvas-list {
   z-index: 1003; }
 .offcanvas-overlap-left .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0;
   cursor: pointer;
   transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
@@ -6165,7 +6165,7 @@ ul.off-canvas-list {
   z-index: 1003; }
 .offcanvas-overlap-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0;
   cursor: pointer;
   transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
@@ -6193,7 +6193,7 @@ ul.off-canvas-list {
 .left-submenu {
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
-  background: #333333;
+  background: #06697c;
   bottom: 0;
   box-sizing: content-box;
   margin: 0;
@@ -6220,7 +6220,7 @@ ul.off-canvas-list {
   .left-submenu .back > a {
     background: #444;
     border-bottom: none;
-    border-top: 1px solid #5e5e5e;
+    border-top: 1px solid #0894af;
     color: #999999;
     font-weight: bold;
     padding: 0.3rem 0.9375rem;
@@ -6229,7 +6229,7 @@ ul.off-canvas-list {
     .left-submenu .back > a:hover {
       background: #303030;
       border-bottom: none;
-      border-top: 1px solid #5e5e5e; }
+      border-top: 1px solid #0894af; }
     .left-submenu .back > a:before {
       content: "\AB";
       margin-right: .5rem;
@@ -6245,7 +6245,7 @@ ul.off-canvas-list {
 .right-submenu {
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
-  background: #333333;
+  background: #06697c;
   bottom: 0;
   box-sizing: content-box;
   margin: 0;
@@ -6272,7 +6272,7 @@ ul.off-canvas-list {
   .right-submenu .back > a {
     background: #444;
     border-bottom: none;
-    border-top: 1px solid #5e5e5e;
+    border-top: 1px solid #0894af;
     color: #999999;
     font-weight: bold;
     padding: 0.3rem 0.9375rem;
@@ -6281,7 +6281,7 @@ ul.off-canvas-list {
     .right-submenu .back > a:hover {
       background: #303030;
       border-bottom: none;
-      border-top: 1px solid #5e5e5e; }
+      border-top: 1px solid #0894af; }
     .right-submenu .back > a:after {
       content: "\BB";
       margin-left: .5rem;
@@ -6911,25 +6911,13 @@ GENERAL STYLES
   font-size: 1.5em;
   text-transform: uppercase; }
 
-x-.afg {
-  position: absolute;
-  left: 50%;
-  margin-left: -44px;
-  top: -10px;
-  z-index: 999; }
+.tab-bar h1.title {
+  font-family: "Bitter", serif;
+  text-transform: uppercase; }
 
 #inner-content {
   position: relative;
   padding-top: 60px !important; }
-
-x-#inner-content:before {
-  background: transparent url("../images/afg.png") no-repeat left top;
-  content: ' ';
-  position: absolute;
-  top: -40px;
-  width: 90px;
-  height: 90px;
-  z-index: 999; }
 
 #content {
   background: transparent url("../images/60degree_gray_@2X-colorized.png");
