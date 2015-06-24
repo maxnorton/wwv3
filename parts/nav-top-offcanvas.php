@@ -11,7 +11,7 @@
 
 <?php if ( is_front_page() ) { get_template_part( 'parts/hero', 'front' ); } ?>
 
-<div class="main-bar sticky show-for-medium-up contain-to-grid" <?php if ( is_front_page() ) { ?>data-0="padding-top: 0px;" data-23-top="padding-top: 0px;" data-1-top="padding-top: 22px;"<?php } ?>>
+<div class="main-bar sticky show-for-medium-up contain-to-grid" <?php if ( is_front_page() ) { ?>data-0="padding-top: 0px;" data-23-top="padding-top: 0px;" data-1-top="padding-top: 22px;"<?php } else { echo 'style="padding-top: 22px;"'; } ?>>
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
 			<!-- Title Area -->

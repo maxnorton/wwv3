@@ -13,6 +13,12 @@ body {}
 	border-bottom: 3px solid #aaa;
 }
 
+h1.page-title {
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+}
+
 .homepage-hero {
 
 	.hero-photo-wrapper {
@@ -73,9 +79,9 @@ body {}
 }
 
 #content {
-	background: transparent url('../images/60degree_gray_@2X-colorized.png');
+	background: #f3eddd;
 	min-height: 300px;
-	border-bottom: 5px solid green;
+	border-bottom: 3px solid #bbb;
 }
 
 .pages-grid {
@@ -90,15 +96,20 @@ body {}
 }
 
 .pages-grid .columns:first-of-type {
-	border-right: 1px solid #ddd;
+	border-right: 1px dotted #f90;
 }
 
-.pane3 {
-	background: #fffbf8;
+.pane2 > .row {
+	border-bottom: 1px dotted #f90;
 }
 
 .pane2,
 .pane3 {
+	background: transparent url('../images/cardboard-sepia.png')
+}
+
+.pane3 {
+	border-bottom: 3px solid #bbb;
 }
 
 .footer {

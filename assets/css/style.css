@@ -6,7 +6,7 @@ Here's where the magic happens. Here is where you import
 all of your Sass files so they can compile into one
 CSS file. 
 ******************************************************************/
-@import url("http://fonts.googleapis.com/css?family=Bitter|Raleway:400,700|Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Bitter|Raleway:400,500|Open+Sans:300italic,400italic,700italic,400,300,700");
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -6879,6 +6879,11 @@ GENERAL STYLES
 .sticky {
   border-bottom: 3px solid #aaa; }
 
+h1.page-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500; }
+
 .homepage-hero .hero-photo-wrapper {
   background: transparent url("/wp-content/themes/wwv3/assets/images/river-desat.jpg") no-repeat center center;
   background-size: cover;
@@ -6920,9 +6925,9 @@ GENERAL STYLES
   padding-top: 60px !important; }
 
 #content {
-  background: transparent url("../images/60degree_gray_@2X-colorized.png");
+  background: #f3eddd;
   min-height: 300px;
-  border-bottom: 5px solid green; }
+  border-bottom: 3px solid #bbb; }
 
 .pages-grid {
   padding: 1em 0; }
@@ -6934,10 +6939,17 @@ GENERAL STYLES
   background-color: transparent; }
 
 .pages-grid .columns:first-of-type {
-  border-right: 1px solid #ddd; }
+  border-right: 1px dotted #f90; }
+
+.pane2 > .row {
+  border-bottom: 1px dotted #f90; }
+
+.pane2,
+.pane3 {
+  background: transparent url("../images/cardboard-sepia.png"); }
 
 .pane3 {
-  background: #fffbf8; }
+  border-bottom: 3px solid #bbb; }
 
 .footer {
   font-family: "corbel", sans-serif;
