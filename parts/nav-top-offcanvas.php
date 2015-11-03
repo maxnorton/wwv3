@@ -11,12 +11,12 @@
 
 <?php if ( is_front_page() ) { get_template_part( 'parts/hero', 'front' ); } ?>
 
-<div class="main-bar sticky show-for-medium-up contain-to-grid" <?php if ( is_front_page() ) { ?>data-0="padding-top: 0px;" data-23-top="padding-top: 0px;" data-1-top="padding-top: 22px;"<?php } else { echo 'style="padding-top: 22px;"'; } ?>>
+<div class="main-bar sticky show-for-medium-up contain-to-grid">
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
 			<!-- Title Area -->
 			<li class="name">
-				<h1> <a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
+				<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-waves.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
 				<!--h2>California whitewater rafting since 1975</h2-->
 			</li>
 		</ul>		

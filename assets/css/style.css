@@ -5122,7 +5122,7 @@ meta.foundation-mq-topbar {
     width: 100%; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #03343e;
+    border-top: solid 1px #03353e;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -5929,7 +5929,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-right: solid 1px #03343e;
+  border-right: solid 1px #03353e;
   left: 0; }
 
 .right-small {
@@ -5937,7 +5937,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-left: solid 1px #03343e;
+  border-left: solid 1px #03353e;
   right: 0; }
 
 .tab-bar-section {
@@ -6052,9 +6052,9 @@ ul.off-canvas-list {
     padding: 0.6666666667rem;
     transition: background 300ms ease; }
     ul.off-canvas-list li a:hover {
-      background: #044957; }
+      background: #044a57; }
     ul.off-canvas-list li a:active {
-      background: #044957; }
+      background: #044a57; }
 
 .move-right > .inner-wrap {
   -webkit-transform: translate3d(15.625rem, 0, 0);
@@ -6876,6 +6876,13 @@ Stylesheet: Main Stylesheet
 /*********************
 GENERAL STYLES
 *********************/
+.top-bar .name h1 img {
+  height: 38px;
+  padding-top: 5px;
+  vertical-align: top; }
+.top-bar .name h1 a {
+  display: inline-block; }
+
 .sticky {
   border-bottom: 3px solid #aaa; }
 
@@ -6906,6 +6913,7 @@ h1.page-title {
   line-height: 2em; }
 
 .meta-wrapper.fixed {
+  display: none;
   z-index: 999; }
   .meta-wrapper.fixed a:hover {
     color: black;

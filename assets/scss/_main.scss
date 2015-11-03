@@ -9,6 +9,20 @@ GENERAL STYLES
 *********************/
 body {}
 
+.top-bar .name h1 {
+	
+	img {
+		height: 38px;
+		padding-top: 5px;
+		vertical-align: top;
+	}
+
+	a {
+		display: inline-block;
+	}
+
+}
+
 .sticky {
 	border-bottom: 3px solid #aaa;
 }
@@ -42,22 +56,23 @@ h1.page-title {
 
 }
 
-.meta-bar {
-	background-color: white;
-	font-family: "Helvetica Neue";
-	font-size: 0.7em;
-	text-transform: uppercase;
-	line-height: 2em;
-}
-
-.meta-wrapper.fixed {
-	z-index: 999;
-
-	a:hover {
-		color: black;
-		text-decoration: underline;
+	.meta-bar {
+		background-color: white;
+		font-family: "Helvetica Neue";
+		font-size: 0.7em;
+		text-transform: uppercase;
+		line-height: 2em;
 	}
-}
+
+	.meta-wrapper.fixed {
+		display: none;
+		z-index: 999;
+
+		a:hover {
+			color: black;
+			text-decoration: underline;
+		}
+	}
 
 .main-bar {
 
