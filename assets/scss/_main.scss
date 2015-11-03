@@ -23,6 +23,10 @@ body {}
 
 }
 
+.top-bar-menu .divider:first-of-type {
+	display: none;
+}
+
 .sticky {
 	border-bottom: 3px solid #aaa;
 }

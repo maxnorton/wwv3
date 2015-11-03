@@ -6883,6 +6883,9 @@ GENERAL STYLES
 .top-bar .name h1 a {
   display: inline-block; }
 
+.top-bar-menu .divider:first-of-type {
+  display: none; }
+
 .sticky {
   border-bottom: 3px solid #aaa; }
 
