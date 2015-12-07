@@ -40,7 +40,23 @@
 		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-			  $('.slick').slick();
+			  $('.slick').slick({arrows: false});
+			  $('.tab-lower').click(function() {
+			  	event.preventDefault();
+			  	$('.slick').slick('slickGoTo', 0);
+			  });
+			  $('.tab-upper').click(function() {
+			  	event.preventDefault();
+			  	$('.slick').slick('slickGoTo', 1);
+			  });
+			  $('.tab-thunder').click(function() {
+			  	event.preventDefault();
+			  	$('.slick').slick('slickGoTo', 2);
+			  });
+			  $('.tab-forks').click(function() {
+			  	event.preventDefault();
+			  	$('.slick').slick('slickGoTo', 3);
+			  });
 			});
 		</script>
 	</body>

@@ -194,6 +194,13 @@ a, a:visited {
 	}
 }
 
+.tabs.vertical.tabs-widthless {
+	max-width: none;
+	width: auto;
+	padding: 0.5rem 1rem;
+	margin: 0;
+}
+
 /*********************
 H1, H2, H3, H4, H5 P STYLES
 *********************/
