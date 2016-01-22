@@ -3,7 +3,10 @@ function pages_grid_classes( $id ) {
 	echo 'columns ';
 	switch ($id) {
 		case 1:
-		case 4:
+			echo 'medium-12';
+			break;
+		case 2:
+		case 5:
 			echo 'medium-8 ';
 			break;
 		default:
@@ -16,18 +19,19 @@ function pages_grid_panel_classes ($id ) {
 		echo 'callout ';
 	/*switch ($id) {
 		case 1:
-		case 3:
-			echo 'text-left ';
-			break;
 		case 2:
 		case 4:
+			echo 'text-left ';
+			break;
+		case 3:
+		case 5:
 			echo 'text-right ';
 			break;
 	}*/
 	echo 'panel transpanel';
 }
 function pages_grid_img_classes( $id ) {
-	if ($id == 2 || $id == 3)
+	if ($id == 3 || $id == 4)
 		echo 'small';
 }
 ?>

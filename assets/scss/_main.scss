@@ -28,12 +28,20 @@ body {}
 }
 
 .sticky {
-	border-bottom: 3px solid #aaa;
+	x-border-bottom: 3px solid #aaa;
+}
+
+.top-rule {
+	color: $blue;
+	max-width: 62.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
 }
 
 h1.page-title {
 	text-align: center;
-	font-family: "Raleway", sans-serif;
+	font-family: "Trajan Pro", sans-serif;
 	font-weight: 500;
 }
 
@@ -81,7 +89,7 @@ h1.page-title {
 .main-bar {
 
 	h1 a {
-		font-family: "Bitter", serif;
+		font-family: "Trajan Pro", serif;
 		font-size: 1.5em;
 		text-transform: uppercase;
 	}
@@ -98,9 +106,9 @@ h1.page-title {
 }
 
 #content {
-	background: #f3eddd;
+	background: $white;
 	min-height: 300px;
-	border-bottom: 3px solid #bbb;
+	x-border-bottom: 3px solid #bbb;
 }
 
 .pages-grid {
@@ -114,21 +122,31 @@ h1.page-title {
 	background-color: transparent;
 }
 
+.callout.transpanel .featured-image {
+	padding-top: 20px;
+	visibility: hidden;
+}
+
 .pages-grid .columns:first-of-type {
-	border-right: 1px dotted #f90;
+	x-border-right: 2px solid $green;
 }
 
 .pane2 > .row {
-	border-bottom: 1px dotted #f90;
+	x-border-bottom: 2px solid $green;
 }
 
 .pane2,
 .pane3 {
-	background: transparent url('../images/cardboard-sepia.png')
+	x-background: transparent url('../images/cardboard-sepia.png');
+	background: $white;
 }
 
 .pane3 {
-	border-bottom: 3px solid #bbb;
+	x-border-bottom: 3px solid #bbb;
+}
+
+.pane2 {
+	background: white url('../images/bg-callout-transpanel.png') no-repeat center top;
 }
 
 .footer {
@@ -136,7 +154,7 @@ h1.page-title {
 	margin-top: 0 !important;
 
 	#inner-footer {
-		background-color: #06697c;
+		background-color: $green;
 		color: white;
 		max-width: none;
 
@@ -247,6 +265,9 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .top-bar {
+
+	padding-top: .75rem;
+
 	.title-area {
 		z-index: 1;
 	}

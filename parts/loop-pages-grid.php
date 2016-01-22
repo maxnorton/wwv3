@@ -51,7 +51,7 @@
 				
 			</div>
 
-			<?php if ($grid_id == 2) { ?>
+			<?php if ($grid_id == 1) { ?>
 
 				</div>  <!--End Row: --> 
 			</div> <!--End pane -->
