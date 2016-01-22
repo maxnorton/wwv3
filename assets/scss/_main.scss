@@ -23,8 +23,29 @@ body {}
 
 }
 
-.top-bar-menu .divider:first-of-type {
+.top-bar .title-area {
+	padding-top: 2px;
+}
+
+.title-area .name h1 a {
+	color: $blue;
+}
+
+.top-bar-menu .divider {
 	display: none;
+}
+
+.top-bar-menu li {
+	
+	a {
+		border: 1px solid #999;
+		border-right: none;
+	}
+
+	&:last-of-type a {
+		border-right: 1px solid #999;
+	}
+
 }
 
 .sticky {

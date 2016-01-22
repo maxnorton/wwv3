@@ -96,6 +96,7 @@ $font-family-sans-serif: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Ar
 // $font-weight-bold: bold;
 
  $white       : #FFFFFF;
+ $blue-bg     : #006699;
  $blue        : #2897d0;
  $green       : #4c7804;
 // $ghost       : #FAFAFA;
@@ -1412,16 +1413,17 @@ $topbar-bg-color: $white;
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
 // $topbar-title-font-size: rem-calc(17);
+$topbar-title-color: $blue;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $blue;
+$topbar-link-color: $white;
 // $topbar-link-color-hover: $white;
 // $topbar-link-color-active: $white;
 // $topbar-link-color-active-hover: $white;
 // $topbar-link-weight: $font-weight-normal;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
-// $topbar-link-bg: $topbar-bg;
+$topbar-link-bg: $blue-bg;
 // $topbar-link-bg-hover: $jet;
 // $topbar-link-bg-color-hover: $charcoal;
 // $topbar-link-bg-active: $primary-color;
@@ -1455,7 +1457,7 @@ $topbar-link-color: $blue;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
-// $topbar-menu-link-color: $white;
+// $topbar-menu-link-color: $blue;
 // $topbar-menu-icon-color: $white;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;

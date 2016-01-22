@@ -5052,7 +5052,7 @@ meta.foundation-mq-topbar {
       line-height: 2.8125rem;
       margin: 0; }
       .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-        color: #2897d0;
+        color: #FFFFFF;
         display: block;
         font-weight: normal;
         padding: 0 0.9375rem;
@@ -5062,7 +5062,7 @@ meta.foundation-mq-topbar {
     right: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
-      color: #2897d0;
+      color: #FFFFFF;
       display: block;
       font-size: 0.8125rem;
       font-weight: bold;
@@ -5129,7 +5129,7 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li {
     background: #333333; }
     .top-bar-section ul li > a {
-      color: #2897d0;
+      color: #FFFFFF;
       display: block;
       font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 0.8125rem;
@@ -5305,7 +5305,7 @@ meta.foundation-mq-topbar {
         margin-top: 0;
         font-size: 1.125rem; }
         .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-          color: #2897d0;
+          color: #FFFFFF;
           display: block; }
           .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
             background: none; }
@@ -5377,7 +5377,7 @@ meta.foundation-mq-topbar {
       background: #222222;
       color: #FFFFFF; }
     .top-bar-section li:not(.has-form) a:not(.button) {
-      background: #FFFFFF;
+      background: #006699;
       line-height: 2.8125rem;
       padding: 0 0.9375rem; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -5466,7 +5466,7 @@ meta.foundation-mq-topbar {
       height: 2.8125rem;
       width: 0; }
     .top-bar-section .has-form {
-      background: #FFFFFF;
+      background: #006699;
       height: 2.8125rem;
       padding: 0 0.9375rem; }
     .top-bar-section .right li .dropdown {
@@ -6883,8 +6883,20 @@ GENERAL STYLES
 .top-bar .name h1 a {
   display: inline-block; }
 
-.top-bar-menu .divider:first-of-type {
+.top-bar .title-area {
+  padding-top: 2px; }
+
+.title-area .name h1 a {
+  color: #2897d0; }
+
+.top-bar-menu .divider {
   display: none; }
+
+.top-bar-menu li a {
+  border: 1px solid #999;
+  border-right: none; }
+.top-bar-menu li:last-of-type a {
+  border-right: 1px solid #999; }
 
 .sticky {
   x-border-bottom: 3px solid #aaa; }

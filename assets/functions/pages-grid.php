@@ -31,7 +31,7 @@ function pages_grid_panel_classes ($id ) {
 	echo 'panel transpanel';
 }
 function pages_grid_img_classes( $id ) {
-	if ($id == 3 || $id == 4)
-		echo 'small';
+	/*if ($id == 3 || $id == 4)
+		echo 'small';*/
 }
 ?>
