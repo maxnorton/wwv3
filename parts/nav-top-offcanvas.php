@@ -25,7 +25,13 @@
 		</section>
 	</nav>
 	<hr class="top-rule" />
+	<div class="row">
+		<section class="top-bar-social medium-12">
+			<?php get_template_part( 'parts/widget', 'social' ); ?>
+		</section>
+	</div>
 </div>
+
 
 <div class="show-for-small-only" <?php if ( !is_front_page() ) { echo 'style="padding-top: 22px;"'; } ?>>
 	<nav class="tab-bar">

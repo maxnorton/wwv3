@@ -48,6 +48,22 @@ body {}
 
 }
 
+.top-bar-social {
+	clear: both;
+	margin-top: 1.25rem;
+}
+
+.social-badge {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+
+	&.yelp {
+		position: relative;
+		top: -4px;
+	}
+}
+
 .sticky {
 	x-border-bottom: 3px solid #aaa;
 }

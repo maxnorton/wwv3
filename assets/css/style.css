@@ -6898,6 +6898,18 @@ GENERAL STYLES
 .top-bar-menu li:last-of-type a {
   border-right: 1px solid #999; }
 
+.top-bar-social {
+  clear: both;
+  margin-top: 1.25rem; }
+
+.social-badge {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top; }
+  .social-badge.yelp {
+    position: relative;
+    top: -4px; }
+
 .sticky {
   x-border-bottom: 3px solid #aaa; }
 
