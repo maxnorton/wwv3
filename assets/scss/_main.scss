@@ -142,6 +142,23 @@ h1.page-title {
 	padding-top: 60px !important;
 }
 
+.home .primaryarticle > article {
+	background: url('../images/wave-from-left.jpg') no-repeat left top;
+	background-size: contain;
+	height: 300px;
+
+	.entry-content {
+		background: transparent url('../images/afg-stamp.png') no-repeat right top;
+		background-size: contain;
+		height: 200px;
+		padding-right: 22%;
+		padding-top: 20px;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+}
+
 #content {
 	background: $white;
 	min-height: 300px;

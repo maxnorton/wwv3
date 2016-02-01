@@ -8,9 +8,9 @@ Template Name: Full Width (No Sidebar)
 			
 			<div id="content">
 			
-				<div id="inner-content" class="row">
+				<div id="inner-content" class="row collapse">
 			
-				    <div id="main" class="large-12 medium-12 columns" role="main">
+				    <div id="main" class="primaryarticle large-12 medium-12 columns" role="main">
 					
 						<?php get_template_part( 'parts/loop', 'page' ); ?>
 					    					
