@@ -142,6 +142,10 @@ h1.page-title {
 	padding-top: 60px !important;
 }
 
+#inner-content.row.collapse {
+	max-width: none;
+}
+
 .home .primaryarticle > article {
 	background: url('../images/wave-from-left.jpg') no-repeat left top;
 	background-size: contain;
