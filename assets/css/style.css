@@ -6998,15 +6998,11 @@ h1.page-title {
 .pane3 {
   height: 500px; }
   .pane3 article {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     height: 500px; }
-  .pane3 section.featured-image {
-    position: absolute;
-    width: 100%;
-    height: 500px; }
-    .pane3 section.featured-image img {
-      height: 500px;
-      width: auto; }
   .pane3 .grid-text-panel {
     background-color: #006699;
     background-color: rgba(0, 102, 153, 0.7);
