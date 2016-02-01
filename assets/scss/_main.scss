@@ -179,7 +179,47 @@ h1.page-title {
 }
 
 .pane3 {
-	x-border-bottom: 3px solid #bbb;
+
+	height: 500px;
+
+	article {
+		position: relative;
+		height: 500px;
+	}
+
+	section.featured-image {
+		position: absolute;
+		width: 100%;
+		height: 500px;
+
+		img {
+			height: 500px;
+			width: auto;
+		}
+	}
+
+	.grid-text-panel {
+		background-color: rgb(0,102,153);
+	    background-color: rgba(0,102,153,0.7);
+		bottom: 0;
+		padding: 12px;
+		position: absolute;
+		width: 100%;
+
+		a {
+			color: #ccc;
+		}
+
+		a:hover {
+			color: $white;
+			text-decoration: underline;
+		}
+
+		p {
+			color: $white;
+		}
+
+	}
 }
 
 .pane2 {

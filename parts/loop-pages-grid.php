@@ -37,14 +37,16 @@
 							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a>
 						</section> <!-- end article section -->
 					
-						<header class="article-header">
-							<h3 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>	
-						</header> <!-- end article header -->	
-										
-						<section class="entry-content" itemprop="articleBody">
-							<?php the_excerpt('<button class="tiny">Read more...</button>'); ?> 
-						</section> <!-- end article section -->
-										    							
+						<div class="grid-text-panel">
+							<header class="article-header">
+								<h3 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>	
+							</header> <!-- end article header -->	
+											
+							<section class="entry-content" itemprop="articleBody">
+								<?php the_excerpt('<button class="tiny">Read more...</button>'); ?> 
+							</section> <!-- end article section -->
+						</div>
+								    							
 					</article> <!-- end article -->
 
 				</div>
