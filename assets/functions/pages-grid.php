@@ -5,12 +5,8 @@ function pages_grid_classes( $id ) {
 		case 1:
 			echo 'medium-12';
 			break;
-		case 2:
-		case 5:
-			echo 'medium-8 ';
-			break;
 		default:
-			echo 'medium-4 ';
+			echo 'medium-6 ';
 	}
 }
 
