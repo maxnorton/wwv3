@@ -31,9 +31,9 @@
 
 				<div class="<?php pages_grid_panel_classes($grid_id); ?>" data-equalizer-watch>
 		    
-					<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article"<?php if ($grid_id != 1) { ?> style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>');" <?php } ?>>
+					<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article"<?php if ($grid_id != 4) { ?> style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>');" <?php } ?>>
 
-						<?php if ($grid_id == 1) { ?>
+						<?php if ($grid_id == 4) { ?>
 							<section class="featured-image <?php pages_grid_img_classes($grid_id);?>" itemprop="articleBody">
 								<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a>
 							</section> <!-- end article section -->

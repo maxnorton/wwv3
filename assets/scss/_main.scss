@@ -178,6 +178,7 @@ h1.page-title {
 	background: $white;
 }
 
+.pane2,
 .pane3 {
 
 	height: 500px;
@@ -199,11 +200,12 @@ h1.page-title {
 		width: 100%;
 
 		a {
-			color: #ccc;
+			color: $black !important;
+			cursor: pointer;
 		}
 
 		a:hover {
-			color: $white;
+			cursor: pointer;
 			text-decoration: underline;
 		}
 
@@ -214,8 +216,13 @@ h1.page-title {
 	}
 }
 
+.pane2 .grid-text-panel {
+	background-color: rgb(154, 205, 50);
+	background-color: rgba(154, 205, 50, 0.7);
+}
+
 .pane2 {
-	background: white url('../images/bg-callout-transpanel.png') no-repeat center top;
+	x-background: white url('../images/bg-callout-transpanel.png') no-repeat center top;
 }
 
 .footer {

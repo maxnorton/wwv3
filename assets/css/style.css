@@ -6995,14 +6995,17 @@ h1.page-title {
   x-background: transparent url("../images/cardboard-sepia.png");
   background: #FFFFFF; }
 
+.pane2,
 .pane3 {
   height: 500px; }
+  .pane2 article,
   .pane3 article {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 500px; }
+  .pane2 .grid-text-panel,
   .pane3 .grid-text-panel {
     background-color: #006699;
     background-color: rgba(0, 102, 153, 0.7);
@@ -7010,16 +7013,24 @@ h1.page-title {
     padding: 12px;
     position: absolute;
     width: 100%; }
+    .pane2 .grid-text-panel a,
     .pane3 .grid-text-panel a {
-      color: #ccc; }
+      color: #000000 !important;
+      cursor: pointer; }
+    .pane2 .grid-text-panel a:hover,
     .pane3 .grid-text-panel a:hover {
-      color: #FFFFFF;
+      cursor: pointer;
       text-decoration: underline; }
+    .pane2 .grid-text-panel p,
     .pane3 .grid-text-panel p {
       color: #FFFFFF; }
 
+.pane2 .grid-text-panel {
+  background-color: yellowgreen;
+  background-color: rgba(154, 205, 50, 0.7); }
+
 .pane2 {
-  background: white url("../images/bg-callout-transpanel.png") no-repeat center top; }
+  x-background: white url("../images/bg-callout-transpanel.png") no-repeat center top; }
 
 .footer {
   font-family: "corbel", sans-serif;
