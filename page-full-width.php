@@ -8,7 +8,7 @@ Template Name: Full Width (No Sidebar)
 			
 			<div id="content">
 			
-				<div id="inner-content" class="row collapse">
+				<div id="inner-content" class="row">
 			
 				    <div id="main" class="primaryarticle large-12 medium-12 columns" role="main">
 					
