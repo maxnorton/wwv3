@@ -251,6 +251,11 @@ h1.page-title {
 	x-background: white url('../images/bg-callout-transpanel.png') no-repeat center top;
 }
 
+.pricing-table .description {
+	height: 175px;
+	overflow-y: scroll;
+}
+
 .footer {
 	font-family: "corbel", sans-serif;
 	margin-top: 0 !important;
