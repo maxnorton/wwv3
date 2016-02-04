@@ -137,6 +137,11 @@ h1.page-title {
 	text-transform: uppercase;
 }
 
+#content {
+	background: transparent url(../images/splash-gradient-70.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 #inner-content {
 	position: relative;
 	padding-top: 60px !important;
@@ -147,7 +152,7 @@ h1.page-title {
 }
 
 .home .primaryarticle > article {
-	background: url('../images/wave-from-left.jpg') no-repeat left top;
+	x-background: url('../images/wave-from-left.jpg') no-repeat left top;
 	background-size: contain;
 	height: 300px;
 
@@ -164,7 +169,7 @@ h1.page-title {
 }
 
 #content {
-	background: $white;
+	x-background: $white;
 	min-height: 300px;
 	x-border-bottom: 3px solid #bbb;
 }
@@ -196,7 +201,7 @@ h1.page-title {
 .pane2,
 .pane3 {
 	x-background: transparent url('../images/cardboard-sepia.png');
-	background: $white;
+	x-background: $white;
 }
 
 .pane2,

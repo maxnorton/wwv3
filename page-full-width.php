@@ -18,8 +18,10 @@ Template Name: Full Width (No Sidebar)
 				    
 				</div> <!-- end #inner-content -->
     
-			</div> <!-- end #content -->
+				<?php if ( is_front_page() ) { get_template_part( 'parts/loop', 'pages-grid' ); } ?>
 
-			<?php if ( is_front_page() ) { get_template_part( 'parts/loop', 'pages-grid' ); } ?>
+				<br clear="all" />
+
+			</div> <!-- end #content -->
 
 <?php get_footer(); ?>

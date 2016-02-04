@@ -6962,6 +6962,10 @@ h1.page-title {
   font-family: "Bitter", serif;
   text-transform: uppercase; }
 
+#content {
+  background: transparent url(../images/splash-gradient-70.jpg) no-repeat center center;
+  background-size: cover; }
+
 #inner-content {
   position: relative;
   padding-top: 60px !important; }
@@ -6970,7 +6974,7 @@ h1.page-title {
   max-width: none; }
 
 .home .primaryarticle > article {
-  background: url("../images/wave-from-left.jpg") no-repeat left top;
+  x-background: url("../images/wave-from-left.jpg") no-repeat left top;
   background-size: contain;
   height: 300px; }
   .home .primaryarticle > article .entry-content {
@@ -6983,7 +6987,7 @@ h1.page-title {
     margin-right: 4%; }
 
 #content {
-  background: #FFFFFF;
+  x-background: #FFFFFF;
   min-height: 300px;
   x-border-bottom: 3px solid #bbb; }
 
@@ -7009,7 +7013,7 @@ h1.page-title {
 .pane2,
 .pane3 {
   x-background: transparent url("../images/cardboard-sepia.png");
-  background: #FFFFFF; }
+  x-background: #FFFFFF; }
 
 .pane2,
 .pane3 {
