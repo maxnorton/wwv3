@@ -16,7 +16,7 @@
 		<ul class="title-area">
 			<!-- Title Area -->
 			<li class="name">
-				<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-waves.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
+				<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/wwv-logo-shimmery.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
 				<!--h2>California whitewater rafting since 1975</h2-->
 			</li>
 		</ul>		
@@ -24,7 +24,14 @@
 			<?php joints_top_nav(); ?>
 		</section>
 	</nav>
+	<hr class="top-rule" />
+	<div class="row">
+		<section class="top-bar-social medium-12">
+			<?php get_template_part( 'parts/widget', 'social' ); ?>
+		</section>
+	</div>
 </div>
+
 
 <div class="show-for-small-only" <?php if ( !is_front_page() ) { echo 'style="padding-top: 22px;"'; } ?>>
 	<nav class="tab-bar">

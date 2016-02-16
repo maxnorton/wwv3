@@ -42,6 +42,25 @@
 		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
+
+				function scroll_to_accordion(hash) {
+					if (hash != '') {
+					    if ( $('div'+ hash).hasClass('active') == false) {
+					    	$('a[href="'+ hash +'"]').trigger('click.fndtn.accordion');
+					    }
+					    $('html, body').animate({
+					      scrollTop: $('a[href="'+ hash +'"]').offset().top
+					    }, 600);
+					}
+				}
+
+				scroll_to_accordion(window.location.hash);
+
+				$('.cta-button .button').click(function() {
+					var hash = $(this).attr('href');
+					scroll_to_accordion(hash);
+				})
+
 			  $('.slick').slick({arrows: false});
 			  $('.tab-lower').click(function() {
 			  	event.preventDefault();

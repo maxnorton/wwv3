@@ -10,7 +10,7 @@ Template Name: Full Width (No Sidebar)
 			
 				<div id="inner-content" class="row">
 			
-				    <div id="main" class="large-12 medium-12 columns" role="main">
+				    <div id="main" class="primaryarticle large-12 medium-12 columns" role="main">
 					
 						<?php get_template_part( 'parts/loop', 'page' ); ?>
 					    					
@@ -18,8 +18,10 @@ Template Name: Full Width (No Sidebar)
 				    
 				</div> <!-- end #inner-content -->
     
-			</div> <!-- end #content -->
+				<?php if ( is_front_page() ) { get_template_part( 'parts/loop', 'pages-grid' ); } ?>
 
-			<?php if ( is_front_page() ) { get_template_part( 'parts/loop', 'pages-grid' ); } ?>
+				<br clear="all" />
+
+			</div> <!-- end #content -->
 
 <?php get_footer(); ?>

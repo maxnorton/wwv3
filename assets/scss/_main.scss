@@ -23,24 +23,69 @@ body {}
 
 }
 
-.top-bar-menu .divider:first-of-type {
+.top-bar .title-area {
+	padding-top: 2px;
+}
+
+.title-area .name h1 a {
+	color: $blue;
+}
+
+.top-bar-menu .divider {
 	display: none;
 }
 
+.top-bar-menu li {
+	
+	a {
+		border: 1px solid #999;
+		border-right: none;
+	}
+
+	&:last-of-type a {
+		border-right: 1px solid #999;
+	}
+
+}
+
+.top-bar-social {
+	clear: both;
+	margin-top: 1.25rem;
+}
+
+.social-badge {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+
+	&.yelp {
+		position: relative;
+		top: -4px;
+	}
+}
+
 .sticky {
-	border-bottom: 3px solid #aaa;
+	x-border-bottom: 3px solid #aaa;
+}
+
+.top-rule {
+	color: $blue;
+	max-width: 62.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
 }
 
 h1.page-title {
 	text-align: center;
-	font-family: "Raleway", sans-serif;
+	font-family: "Trajan Pro", sans-serif;
 	font-weight: 500;
 }
 
 .homepage-hero {
 
 	.hero-photo-wrapper {
-		background: transparent url('/wp-content/themes/wwv3/assets/images/river-desat.jpg') no-repeat center center;
+		background: transparent url('/wp-content/themes/wwv3/assets/images/kern-rafting-with-whitewater-voyages.jpg') no-repeat center center;
 		background-size: cover;
 		color: white;
 		font-family: "Raleway", sans-serif;
@@ -81,7 +126,7 @@ h1.page-title {
 .main-bar {
 
 	h1 a {
-		font-family: "Bitter", serif;
+		font-family: "Trajan Pro", serif;
 		font-size: 1.5em;
 		text-transform: uppercase;
 	}
@@ -92,15 +137,41 @@ h1.page-title {
 	text-transform: uppercase;
 }
 
+#content {
+	background: transparent url(../images/splash-gradient-70.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 #inner-content {
 	position: relative;
 	padding-top: 60px !important;
 }
 
+#inner-content.row.collapse {
+	max-width: none;
+}
+
+.home .primaryarticle > article {
+	x-background: url('../images/wave-from-left.jpg') no-repeat left top;
+	background-size: contain;
+	height: 300px;
+
+	.entry-content {
+		background: transparent url('../images/afg-stamp.png') no-repeat right top;
+		background-size: contain;
+		height: 200px;
+		padding-right: 22%;
+		padding-top: 20px;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+}
+
 #content {
-	background: #f3eddd;
+	x-background: $white;
 	min-height: 300px;
-	border-bottom: 3px solid #bbb;
+	x-border-bottom: 3px solid #bbb;
 }
 
 .pages-grid {
@@ -114,21 +185,75 @@ h1.page-title {
 	background-color: transparent;
 }
 
+.callout.transpanel .featured-image {
+	padding-top: 20px;
+	visibility: hidden;
+}
+
 .pages-grid .columns:first-of-type {
-	border-right: 1px dotted #f90;
+	x-border-right: 2px solid $green;
 }
 
 .pane2 > .row {
-	border-bottom: 1px dotted #f90;
+	x-border-bottom: 2px solid $green;
 }
 
 .pane2,
 .pane3 {
-	background: transparent url('../images/cardboard-sepia.png')
+	x-background: transparent url('../images/cardboard-sepia.png');
+	x-background: $white;
 }
 
+.pane2,
 .pane3 {
-	border-bottom: 3px solid #bbb;
+
+	height: 500px;
+
+	article {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		height: 500px;
+	}
+
+	.grid-text-panel {
+		background-color: rgb(0,102,153);
+	    background-color: rgba(0,102,153,0.7);
+		bottom: 0;
+		padding: 12px;
+		position: absolute;
+		width: 100%;
+
+		a {
+			color: $black !important;
+			cursor: pointer;
+		}
+
+		a:hover {
+			cursor: pointer;
+			text-decoration: underline;
+		}
+
+		p {
+			color: $white;
+		}
+
+	}
+}
+
+.pane2 .grid-text-panel {
+	background-color: rgb(154, 205, 50);
+	background-color: rgba(154, 205, 50, 0.7);
+}
+
+.pane2 {
+	x-background: white url('../images/bg-callout-transpanel.png') no-repeat center top;
+}
+
+.pricing-table .description {
+	height: 175px;
+	overflow-y: scroll;
 }
 
 .footer {
@@ -136,7 +261,7 @@ h1.page-title {
 	margin-top: 0 !important;
 
 	#inner-footer {
-		background-color: #06697c;
+		background-color: $green;
 		color: white;
 		max-width: none;
 
@@ -247,6 +372,9 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .top-bar {
+
+	padding-top: .75rem;
+
 	.title-area {
 		z-index: 1;
 	}
