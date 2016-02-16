@@ -6953,6 +6953,9 @@ h1.page-title {
     color: black;
     text-decoration: underline; }
 
+.main-bar .yellowrule {
+  background-color: #f7ec38;
+  height: 10px; }
 .main-bar h1 a {
   font-family: "Trajan Pro", serif;
   font-size: 1.5em;

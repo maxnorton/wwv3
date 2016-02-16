@@ -125,6 +125,11 @@ h1.page-title {
 
 .main-bar {
 
+	.yellowrule {
+		background-color: $yellow;
+		height: 10px;
+	}
+
 	h1 a {
 		font-family: "Trajan Pro", serif;
 		font-size: 1.5em;

@@ -30,6 +30,7 @@
 			<?php get_template_part( 'parts/widget', 'social' ); ?>
 		</section>
 	</div>
+	<div class="yellowrule"></div>
 </div>
 
 
