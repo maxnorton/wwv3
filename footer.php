@@ -2,7 +2,7 @@
 						<?php if (is_front_page()) { ?>
 						<div id="inner-footer" class="row collapse">
 							<div class="medium-6 columns">
-								<iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyBjfQzlCp5KTe5HLPtlbIwbjx2RDWayOAQ&mode=driving&origin=Los+Angeles,CA&destination=Whitewater+Voyages+-+Kern+Outdoor+Center,Kernville,CA&zoom=7" style="width: 100%; height: 100%; min-height: 450px; border: 0 none; margin-bottom: -5px;"></iframe>
+								<em>Map temporarily disabled.</em>
 							</div>
 							<div class="medium-6 columns left">
 								<div style="padding-left: 1em;">
