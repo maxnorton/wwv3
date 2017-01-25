@@ -3,13 +3,10 @@
 		<div class="row">
 			<div class="small-4 columns"></div>
 			<div class="small-4 columns"></div>
-			<div class="small-4 columns text-right"><a href="tel:+18004007238"><i class="fi-telephone"></i>&nbsp;&nbsp;&nbsp;800-400-7238</a>
-</div>
+			<div class="small-4 columns text-right"><a href="tel:+18004007238"><i class="fi-telephone"></i>&nbsp;&nbsp;&nbsp;800-400-7238</a></div>
 		</div>
 	</div>
 </div>
-
-<?php if ( is_front_page() ) { get_template_part( 'parts/hero', 'front' ); } ?>
 
 <div class="main-bar sticky show-for-medium-up contain-to-grid">
 	<nav class="top-bar" data-topbar>
@@ -30,8 +27,8 @@
 			<?php get_template_part( 'parts/widget', 'social' ); ?>
 		</section>
 	</div>
-	<div class="yellowrule"></div>
 </div>
+<div class="yellowrule"></div>
 
 
 <div class="show-for-small-only" <?php if ( !is_front_page() ) { echo 'style="padding-top: 22px;"'; } ?>>

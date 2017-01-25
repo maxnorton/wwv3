@@ -84,23 +84,34 @@ h1.page-title {
 
 .homepage-hero {
 
+	position: fixed;
+	top: 0;
+	width: 100%;
+
 	.hero-photo-wrapper {
 		background: transparent url('/wp-content/themes/wwv3/assets/images/kern-rafting-with-whitewater-voyages.jpg') no-repeat center center;
 		background-size: cover;
 		color: white;
 		font-family: "Raleway", sans-serif;
 		margin: 0 auto;
+		position: relative;
 		width: 100%;
-		height: 68vh;
+		height: 81.5vh;
 		overflow: hidden;
 	}
 
 	.hero-content-wrap {
-		margin-top: 23vh;
+		position: absolute;
+		bottom: 2rem;
+		right: 2rem;
 	}
 
 	h1 {
 		color: white;
+		font-family: "Garamond", "Times New Roman", serif;
+		font-weight: bold;
+		font-style: italic;
+		text-align: right;
 	}
 
 }
@@ -123,12 +134,16 @@ h1.page-title {
 		}
 	}
 
+header.toplevel {
+	background-color: $white;
+	margin-top: 81.5vh;
+	position: relative;
+}
+
 .main-bar {
 
-	.yellowrule {
-		background-color: $yellow;
-		height: 10px;
-	}
+	border-top: 1.5vh solid $black;
+	height: 16vh;
 
 	h1 a {
 		font-family: "Trajan Pro", serif;
@@ -137,14 +152,21 @@ h1.page-title {
 	}
 }
 
+.yellowrule {
+	background-color: $yellow;
+	height: 1vh;
+	width: 100%;
+}
+
 .tab-bar h1.title {
 	font-family: "Bitter", serif;
 	text-transform: uppercase;
 }
 
 #content {
-	background: transparent url(../images/splash-gradient-70.jpg) no-repeat center center;
+	background: $white url(../images/splash-gradient-70.jpg) no-repeat center center;
 	background-size: cover;
+	position: relative;
 }
 
 #inner-content {

@@ -37,7 +37,10 @@
 		<div class="off-canvas-wrap" data-offcanvas>
 			<div class="inner-wrap">
 				<div id="container">
-					<header class="header" role="banner">
+
+					<?php if ( is_front_page() ) { get_template_part( 'parts/hero', 'front' ); } ?>
+
+					<header class="header toplevel" role="banner">
 							
 						 <!-- This navs will be applied to the topbar, above all content 
 							  To see additional nav styles, visit the /parts directory -->

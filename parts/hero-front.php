@@ -1,8 +1,8 @@
 <section class="homepage-hero hero">
 
-	<div class="hero-photo-wrapper" data-0="background-position-y: 0px;" data-end="background-position-y: 900px;">
+	<div class="hero-photo-wrapper">
 
-		<?php if (get_post_status(17)) { $frontPost = get_post(17); ?>
+		<?php if (get_post_status(1)) { $frontPost = get_post(1); ?>
 			
 			<div class="hero-content-wrap row" data-0="opacity: 1;" data-200="opacity: 0;">
 
