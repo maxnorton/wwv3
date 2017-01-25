@@ -6937,7 +6937,9 @@ h1.page-title {
 .homepage-hero .hero-content-wrap {
   color: #fff;
   margin-top: 23vh;
-  text-shadow: 2px 1px 4px #fff; }
+  text-shadow: 2px 1px 4px #000; }
+  .homepage-hero .hero-content-wrap .entry-content, .homepage-hero .hero-content-wrap .entry-content h2 {
+    color: #fff; }
 .homepage-hero h1 {
   color: white; }
 
