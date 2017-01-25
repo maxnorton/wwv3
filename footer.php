@@ -1,7 +1,7 @@
 					<footer class="footer" role="contentinfo">
 						<?php if (is_front_page()) { ?>
 						<div id="inner-footer" class="row collapse">
-							<div class="medium-6 columns">
+							<div class="medium-6 columns map">
 								<iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyBjfQzlCp5KTe5HLPtlbIwbjx2RDWayOAQ&mode=driving&origin=Los+Angeles,CA&destination=Whitewater+Voyages+-+Kern+Outdoor+Center,Kernville,CA&zoom=7" style="width: 100%; height: 100%; min-height: 450px; border: 0 none; margin-bottom: -5px;"></iframe>
 							</div>
 							<div class="medium-6 columns left">
@@ -42,6 +42,12 @@
 		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
+
+				$(function(){
+					$('.map').on('click', function(){
+						$(this).addClass('interact');
+					});
+				});
 
 				function scroll_to_accordion(hash) {
 					if (hash != '') {

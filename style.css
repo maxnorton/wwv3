@@ -9,3 +9,71 @@ License: GNU General Public License & MIT
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: Sass
 ******************************************************************/
+
+.hero-content-wrap {
+	color: #fff;
+	text-shadow: 2px 1px 4px #fff;
+}
+
+/**** MAP interactivity h/tCraig Harshbarger http://codepen.io/craigh/pen/WQvyGV */
+.map {
+	cursor: pointer;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+  
+.map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+  
+.map:before,  .map:after  {
+	transition: all 0.25s ease;
+	position: absolute;
+	display: block;
+}
+
+.map:before {
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0;
+	z-index: 10;
+}
+
+.map:after {
+	content: 'Click to Interact';
+	background: #00adee;
+	color: #fff;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	top: 50%;
+	margin-top: -15px;
+	left: 50%;
+	margin-left: -100px;
+	z-index: 11;
+	opacity: 0;
+}
+
+.map:hover:before {
+	opacity: 0.2;
+}
+
+.map:hover:after {
+	opacity: 1;
+}
+  
+.map.interact:before, .map.interact:after {
+	display: none;
+}
