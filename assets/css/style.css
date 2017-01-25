@@ -7099,6 +7099,7 @@ h1.page-title {
     display: block; }
   .map:before {
     content: '';
+    height: 450px;
     top: 0;
     right: 0;
     bottom: 0;
