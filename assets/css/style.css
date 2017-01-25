@@ -7064,6 +7064,7 @@ h1.page-title {
   .footer #inner-footer {
     background-color: #4c7804;
     color: white;
+    height: 450px;
     max-width: none; }
     .footer #inner-footer .columns:nth-of-type(2) {
       max-width: 31.25em; }
