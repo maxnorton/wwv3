@@ -100,8 +100,11 @@ h1.page-title {
 		background-color: rgba(255,255,255,0.5);
 		color: #fff;
 		margin-top: 23vh;
-		text-align: center;
 		text-shadow: 2px 1px 4px #000;
+
+		.title-area {
+			text-align: center;
+		}
 
 		.entry-content, .entry-content h2 {
 			color: #fff;

@@ -6939,8 +6939,9 @@ h1.page-title {
   background-color: rgba(255, 255, 255, 0.5);
   color: #fff;
   margin-top: 23vh;
-  text-align: center;
   text-shadow: 2px 1px 4px #000; }
+  .homepage-hero .hero-content-wrap .title-area {
+    text-align: center; }
   .homepage-hero .hero-content-wrap .entry-content, .homepage-hero .hero-content-wrap .entry-content h2 {
     color: #fff; }
 .homepage-hero h1 {
