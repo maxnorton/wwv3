@@ -6940,7 +6940,10 @@ h1.page-title {
   color: #fff;
   margin-top: 23vh;
   text-shadow: 2px 1px 4px #000; }
-  .homepage-hero .hero-content-wrap .title-area {
+  .homepage-hero .hero-content-wrap .title-area h1 {
+    font-family: "Trajan Pro", serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
     text-align: center; }
   .homepage-hero .hero-content-wrap .entry-content, .homepage-hero .hero-content-wrap .entry-content h2 {
     color: #fff; }
