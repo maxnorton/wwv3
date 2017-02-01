@@ -6,6 +6,14 @@
 			
 			<div class="hero-content-wrap row" data-0="opacity: 1;" data-200="opacity: 0;">
 
+				<ul class="title-area">
+					<!-- Title Area -->
+					<li class="name">
+						<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/wwv-logo-shimmery.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
+						<!--h2>California whitewater rafting since 1975</h2-->
+					</li>
+				</ul>		
+
 				<article id="post-<?php echo $frontPost->ID; ?>" class="post-<?php echo $frontPost->ID; ?> columns small-12 text-center" role="article" itemscope itemtype="http://schema.org/WebPage">
 										
 					<header class="article-header">

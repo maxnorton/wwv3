@@ -13,13 +13,6 @@
 
 <div class="main-bar sticky show-for-medium-up contain-to-grid">
 	<nav class="top-bar" data-topbar>
-		<ul class="title-area">
-			<!-- Title Area -->
-			<li class="name">
-				<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/wwv-logo-shimmery.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
-				<!--h2>California whitewater rafting since 1975</h2-->
-			</li>
-		</ul>		
 		<section class="top-bar-section right">
 			<?php joints_top_nav(); ?>
 		</section>
