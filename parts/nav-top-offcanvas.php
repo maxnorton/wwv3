@@ -1,4 +1,4 @@
-<div class="meta-wrapper fixed">
+<div class="meta-wrapper">
 	<div class="meta-bar">
 		<div class="row">
 			<div class="small-10 columns">

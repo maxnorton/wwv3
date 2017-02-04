@@ -39,8 +39,8 @@
 				</div> <!-- end #container -->
 			</div> <!-- end .inner-wrap -->
 		</div> <!-- end .off-canvas-wrap -->
-		<?php wp_footer();
-		get_template_part( 'parts/init', 'skrollr' ); ?>
+		<!--php wp_footer();
+		get_template_part( 'parts/init', 'skrollr' );-->
 		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){

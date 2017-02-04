@@ -6932,7 +6932,7 @@ h1.page-title {
   font-family: "Raleway", sans-serif;
   margin: 0 auto;
   width: 100%;
-  height: 68vh;
+  height: 74vh;
   overflow: hidden; }
 .homepage-hero .hero-content-wrap {
   x-background-color: white;
@@ -6957,6 +6957,8 @@ h1.page-title {
   text-transform: uppercase;
   line-height: 2em;
   padding-top: 1em; }
+  .meta-bar .title-area ul {
+    list-style-type: none; }
   .meta-bar .title-area h1 {
     font-family: "Trajan Pro", serif; }
     .meta-bar .title-area h1 img {
@@ -6969,10 +6971,12 @@ h1.page-title {
     color: black;
     text-decoration: underline; }
 
-.main-bar h1 a {
-  font-family: "Trajan Pro", serif;
-  font-size: 1.5em;
-  text-transform: uppercase; }
+.main-bar {
+  border-top: 5px solid #ffd949; }
+  .main-bar h1 a {
+    font-family: "Trajan Pro", serif;
+    font-size: 1.5em;
+    text-transform: uppercase; }
 
 .tab-bar h1.title {
   font-family: "Bitter", serif;

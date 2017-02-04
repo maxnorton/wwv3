@@ -91,7 +91,7 @@ h1.page-title {
 		font-family: "Raleway", sans-serif;
 		margin: 0 auto;
 		width: 100%;
-		height: 68vh;
+		height: 74vh;
 		overflow: hidden;
 	}
 
@@ -128,11 +128,17 @@ h1.page-title {
 		line-height: 2em;
 		padding-top: 1em;
 
-		.title-area h1 {
-			font-family: "Trajan Pro", serif;
+		.title-area {
+			ul {
+				list-style-type: none;
+			}
 
-			img {
-				margin-right: 15px;
+			h1 {
+				font-family: "Trajan Pro", serif;
+
+				img {
+					margin-right: 15px;
+				}
 			}
 		}
 	}
@@ -148,6 +154,8 @@ h1.page-title {
 	}
 
 .main-bar {
+
+	border-top: 5px solid #ffd949;
 
 	h1 a {
 		font-family: "Trajan Pro", serif;
