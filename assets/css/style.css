@@ -6925,30 +6925,33 @@ h1.page-title {
   font-family: "Trajan Pro", sans-serif;
   font-weight: 500; }
 
-.homepage-hero .hero-photo-wrapper {
-  background: transparent url("/wp-content/themes/wwv3/assets/images/kern-rafting-with-whitewater-voyages.jpg") no-repeat center center;
-  background-size: cover;
-  color: white;
-  font-family: "Raleway", sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  height: 74vh;
-  overflow: hidden; }
-.homepage-hero .hero-content-wrap {
-  x-background-color: white;
-  x-background-color: rgba(255, 255, 255, 0.5);
-  color: #fff;
-  margin-top: 23vh;
-  text-shadow: 2px 1px 4px #000; }
-  .homepage-hero .hero-content-wrap x-.title-area h1 {
-    font-family: "Trajan Pro", serif;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    text-align: center; }
-  .homepage-hero .hero-content-wrap .entry-content, .homepage-hero .hero-content-wrap .entry-content h2 {
-    color: #fff; }
-.homepage-hero h1 {
-  color: white; }
+.homepage-hero {
+  position: relative;
+  z-index: 9; }
+  .homepage-hero .hero-photo-wrapper {
+    background: transparent url("/wp-content/themes/wwv3/assets/images/kern-rafting-with-whitewater-voyages.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    height: 74vh;
+    overflow: hidden; }
+  .homepage-hero .hero-content-wrap {
+    x-background-color: white;
+    x-background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    margin-top: 23vh;
+    text-shadow: 2px 1px 4px #000; }
+    .homepage-hero .hero-content-wrap x-.title-area h1 {
+      font-family: "Trajan Pro", serif;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      text-align: center; }
+    .homepage-hero .hero-content-wrap .entry-content, .homepage-hero .hero-content-wrap .entry-content h2 {
+      color: #fff; }
+  .homepage-hero h1 {
+    color: white; }
 
 .meta-bar {
   background-color: white;
@@ -6957,22 +6960,27 @@ h1.page-title {
   text-transform: uppercase;
   line-height: 2em;
   padding-top: 1em; }
-  .meta-bar .title-area ul {
+  .meta-bar .title-area {
     list-style-type: none; }
-  .meta-bar .title-area h1 {
-    font-family: "Trajan Pro", serif; }
-    .meta-bar .title-area h1 img {
-      margin-right: 15px; }
+    .meta-bar .title-area h1 {
+      font-family: "Trajan Pro", serif; }
+      .meta-bar .title-area h1 img {
+        margin-right: 15px; }
 
-.meta-wrapper.fixed {
-  x-display: none;
+.meta-wrapper {
+  box-shadow: 0 0 5px 1px #000;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.75);
+  position: relative;
   z-index: 999; }
-  .meta-wrapper.fixed a:hover {
+  .meta-wrapper a:hover {
     color: black;
     text-decoration: underline; }
 
 .main-bar {
-  border-top: 5px solid #ffd949; }
+  border-top: 5px solid #ffd949;
+  box-shadow: 0 0 5px 1px #000;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.75);
+  position: relative; }
   .main-bar h1 a {
     font-family: "Trajan Pro", serif;
     font-size: 1.5em;
