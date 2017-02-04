@@ -1,8 +1,7 @@
 <div class="meta-wrapper fixed">
 	<div class="meta-bar">
 		<div class="row">
-			<div class="small-4 columns"></div>
-			<div class="small-4 columns">
+			<div class="small-10 columns">
 				<ul class="title-area">
 					<!-- Title Area -->
 					<li class="name">
@@ -11,7 +10,7 @@
 					</li>
 				</ul>		
 			</div>
-			<div class="small-4 columns text-right"><a href="tel:+18004007238"><i class="fi-telephone"></i>&nbsp;&nbsp;&nbsp;800-400-7238</a>
+			<div class="small-2 columns text-right"><a href="tel:+18004007238"><i class="fi-telephone"></i>&nbsp;&nbsp;&nbsp;800-400-7238</a>
 </div>
 		</div>
 	</div>

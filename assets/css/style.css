@@ -6935,12 +6935,12 @@ h1.page-title {
   height: 68vh;
   overflow: hidden; }
 .homepage-hero .hero-content-wrap {
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.5);
+  x-background-color: white;
+  x-background-color: rgba(255, 255, 255, 0.5);
   color: #fff;
   margin-top: 23vh;
   text-shadow: 2px 1px 4px #000; }
-  .homepage-hero .hero-content-wrap .title-area h1 {
+  .homepage-hero .hero-content-wrap x-.title-area h1 {
     font-family: "Trajan Pro", serif;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -6955,7 +6955,12 @@ h1.page-title {
   font-family: "Helvetica Neue";
   font-size: 0.7em;
   text-transform: uppercase;
-  line-height: 2em; }
+  line-height: 2em;
+  padding-top: 1em; }
+  .meta-bar .title-area h1 {
+    font-family: "Trajan Pro", serif; }
+    .meta-bar .title-area h1 img {
+      margin-right: 15px; }
 
 .meta-wrapper.fixed {
   x-display: none;

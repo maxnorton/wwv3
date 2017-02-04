@@ -96,13 +96,13 @@ h1.page-title {
 	}
 
 	.hero-content-wrap {
-		background-color: rgb(255,255,255);
-		background-color: rgba(255,255,255,0.5);
+		x-background-color: rgb(255,255,255);
+		x-background-color: rgba(255,255,255,0.5);
 		color: #fff;
 		margin-top: 23vh;
 		text-shadow: 2px 1px 4px #000;
 
-		.title-area h1 {
+		x-.title-area h1 {
 			font-family: "Trajan Pro", serif;
 			font-size: 1.5em;
 			text-transform: uppercase;
@@ -126,6 +126,15 @@ h1.page-title {
 		font-size: 0.7em;
 		text-transform: uppercase;
 		line-height: 2em;
+		padding-top: 1em;
+
+		.title-area h1 {
+			font-family: "Trajan Pro", serif;
+
+			img {
+				margin-right: 15px;
+			}
+		}
 	}
 
 	.meta-wrapper.fixed {
