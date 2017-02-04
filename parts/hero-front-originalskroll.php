@@ -1,6 +1,6 @@
 <section class="homepage-hero hero">
 
-	<div class="hero-photo-wrapper">
+	<div class="hero-photo-wrapper" data-0="background-position-y: 0px;" data-end="background-position-y: 900px;">
 
 		<?php if (get_post_status(1)) { $frontPost = get_post(1); ?>
 			
