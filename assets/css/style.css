@@ -6910,9 +6910,6 @@ GENERAL STYLES
     position: relative;
     top: -4px; }
 
-.sticky {
-  x-border-bottom: 3px solid #aaa; }
-
 .top-rule {
   color: #2897d0;
   max-width: 62.5em;
