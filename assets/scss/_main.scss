@@ -128,10 +128,12 @@ h1.page-title {
 		padding-top: 1em;
 
 		.title-area {
-			list-style-type: none;
-
 			h1 {
 				font-family: "Trajan Pro", serif;
+
+				a, a:active {
+					text-decoration: none;
+				}
 
 				img {
 					margin-right: 15px;

@@ -6957,12 +6957,12 @@ h1.page-title {
   text-transform: uppercase;
   line-height: 2em;
   padding-top: 1em; }
-  .meta-bar .title-area {
-    list-style-type: none; }
-    .meta-bar .title-area h1 {
-      font-family: "Trajan Pro", serif; }
-      .meta-bar .title-area h1 img {
-        margin-right: 15px; }
+  .meta-bar .title-area h1 {
+    font-family: "Trajan Pro", serif; }
+    .meta-bar .title-area h1 a, .meta-bar .title-area h1 a:active {
+      text-decoration: none; }
+    .meta-bar .title-area h1 img {
+      margin-right: 15px; }
 
 .meta-wrapper {
   box-shadow: 0 0 5px 1px #000;
