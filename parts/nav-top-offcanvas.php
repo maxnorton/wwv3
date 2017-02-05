@@ -2,13 +2,7 @@
 	<div class="meta-bar">
 		<div class="row">
 			<div class="small-10 columns">
-				<ul class="title-area">
-					<!-- Title Area -->
-					<li class="name">
-						<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/wwv-logo-shimmery.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
-						<!--h2>California whitewater rafting since 1975</h2-->
-					</li>
-				</ul>		
+				<h1><img src="<?php echo get_template_directory_uri(); ?>/assets/images/wwv-logo-shimmery.png" alt="Logo image of waves" /><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>	
 			</div>
 			<div class="small-2 columns text-right"><a href="tel:+18004007238"><i class="fi-telephone"></i>&nbsp;&nbsp;&nbsp;800-400-7238</a>
 </div>

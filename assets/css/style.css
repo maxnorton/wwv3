@@ -6910,9 +6910,6 @@ GENERAL STYLES
     position: relative;
     top: -4px; }
 
-.sticky {
-  x-border-bottom: 3px solid #aaa; }
-
 .top-rule {
   color: #2897d0;
   max-width: 62.5em;
@@ -6981,6 +6978,8 @@ h1.page-title {
   box-shadow: 0 0 5px 1px #000;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.75);
   position: relative; }
+  .main-bar.fixed {
+    position: fixed; }
   .main-bar h1 a {
     font-family: "Trajan Pro", serif;
     font-size: 1.5em;
