@@ -9,6 +9,10 @@ GENERAL STYLES
 *********************/
 body {}
 
+.f-topbar-fixed {
+	padding-top: 0;
+}
+
 .top-bar .name h1 {
 	
 	img {
@@ -23,8 +27,22 @@ body {}
 
 }
 
-.top-bar .title-area {
+x-.top-bar .title-area {
 	padding-top: 2px;
+}
+
+x-.title-area {
+	text-align: center;
+}
+
+.title-area h1 {
+	font-family: "Trajan Pro", serif;
+	font-size: 1em;
+	
+	img {
+		height: 2em;
+		margin-right: 5px;
+	}
 }
 
 .title-area .name h1 a {
@@ -50,7 +68,9 @@ body {}
 
 .top-bar-social {
 	clear: both;
+	height: 30px;
 	margin-top: 1.25rem;
+	text-align: right;
 }
 
 .social-badge {
@@ -78,6 +98,13 @@ h1.page-title {
 	font-weight: 500;
 }
 
+.homepage-hero,
+.pages-grid {
+	.entry-content {
+		background-color: transparent;
+	}
+}
+
 .homepage-hero {
 
 	position: relative;
@@ -101,51 +128,50 @@ h1.page-title {
 		margin-top: 23vh;
 		text-shadow: 2px 1px 4px #000;
 
-		x-.title-area h1 {
-			font-family: "Trajan Pro", serif;
-			font-size: 1.5em;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
 		.entry-content, .entry-content h2 {
 			color: #fff;
 		}
 	}
 
-	h1 {
-		color: white;
+	h1.page-title  {
+		color: $white;
 	}
 
 }
 
 	.meta-bar {
-		background-color: white;
+		background-color: transparent;
 		font-family: "Helvetica Neue";
 		font-size: 0.7em;
-		text-transform: uppercase;
+		x-text-shadow: 2px 1px 2px #fff;
+		x-text-transform: uppercase;
 		line-height: 2em;
 		padding-top: 1em;
 
+		.shadow-focus {
+			box-shadow: 95px -62px 65px 94px #fff;
+    		width: 0;
+    		height: 0;
+		}
+
 		.title-area {
+			.shadow-focus {
+				box-shadow: 85px -72px 65px 105px #fff;
+			}
+
 			h1 {
 				font-family: "Trajan Pro", serif;
 
 				a, a:active {
 					text-decoration: none;
 				}
-
-				img {
-					margin-right: 15px;
-				}
 			}
 		}
 	}
 
 	.meta-wrapper {
-		box-shadow: 0 0 5px 1px #000;
-		box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
-		position: relative;
+		x-box-shadow: 0 0 5px 1px #000;
+		x-box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
 		z-index: 999;
 
 		a:hover {
@@ -155,10 +181,13 @@ h1.page-title {
 	}
 
 .main-bar {
+	background: $white;
+	background: rgba(255,255,255,0.75);
 	border-top: 5px solid #ffd949;
 	box-shadow: 0 0 5px 1px #000;
 	box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
 	position: relative;
+	z-index: 9;
 
 	&.fixed {
 		position: fixed;
@@ -171,9 +200,30 @@ h1.page-title {
 	}
 }
 
+@media only screen and (min-width: 40.063em) {
+	.main-bar {
+		x-top: 118px;
+	}
+}
+
+.tab-bar {
+	border-top: 5px solid #ffd949;
+	box-shadow: 0 0 5px 1px #000;
+	box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
+	position: relative; 
+
+	.left-small {
+		border-right: 0 none;
+	}
+}
+
 .tab-bar h1.title {
-	font-family: "Bitter", serif;
-	text-transform: uppercase;
+	font-family: "Trajan Pro", serif;
+	x-text-transform: uppercase;
+
+	img {
+		height: 30px;
+	}
 }
 
 #content {
@@ -181,9 +231,17 @@ h1.page-title {
 	background-size: cover;
 }
 
+@media only screen and (min-width: 40.063em) {
+	#content {
+		padding-top: 118px;
+		position: relative;
+		top: -118px;
+	}
+}
+
 #inner-content {
 	position: relative;
-	padding-top: 60px !important;
+	padding-top: 0 !important;
 }
 
 #inner-content.row.collapse {
@@ -205,6 +263,56 @@ h1.page-title {
 		margin-right: 4%;
 	}
 
+}
+
+.river-featured-image {
+	x-border-top: 45px solid white;
+	text-align: center;
+}
+
+.before-title,
+.after-title {
+	font-family: serif;
+	font-style: italic;
+	margin: 1em 0 0;
+	text-align: center;
+}
+
+.article-header {
+	x-background: #333;
+	x-background: rgba(20,20,20,0.75);
+	x-margin-top: 15px;
+	x-border-radius: 5px 5px 0 0;
+
+	h1, h3 {
+		color: #333;
+	}
+}
+
+.entry-content {
+	background: rgba(255,255,255,0.6);
+	padding-top: 1.5em;
+}
+
+.trip-details {
+	text-align: center;
+}
+
+.trip-table {
+	display: inline-block;
+	max-width: 315px;
+}
+
+.pricing-table .tripmeta {
+    background-color: #069;
+    color: #fff;;
+	padding: 15px;
+}
+
+.pricing-table.trip-table .description {
+	height: 300px;
+	overflow-y: scroll;
+	text-align: left;
 }
 
 #content {

@@ -12,9 +12,9 @@
 	<div id="yelp-biz-badge-rc-6KC5xtoM46lRwE4-Ghx02A"><a href="http://yelp.com/biz/whitewater-voyages-kernville" target="_blank">Check out Whitewater Voyages on Yelp</a></div><script>(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rc-6KC5xtoM46lRwE4-Ghx02A";g.src = "//yelp.com/biz_badge_js/en_US/rc/6KC5xtoM46lRwE4-Ghx02A.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
 </div>
 <div class="social-badge">
-	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-	<g:plusone href="http://www.whitewatervoyages.com/"></g:plusone>
+	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fwhitewaterfans%2F&width=122&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=291244027597003" width="122" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
 <div class="social-badge">
-    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fwhitewaterfans&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=291244027597003" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:25px;" allowTransparency="true"></iframe>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	<g:plusone href="http://www.whitewatervoyages.com/"></g:plusone>
 </div>
