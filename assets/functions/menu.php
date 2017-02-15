@@ -3,6 +3,7 @@
 register_nav_menus(
 	array(
 		'main-nav' => __( 'The Main Menu', 'jointstheme' ),   // Main nav in header
+		'mobile-nav' => __( 'The Mobile Menu', 'jointstheme' ), // Main nav for mobile screens
 		'front-grid' => __( 'Pages grid', 'jointstheme' ), // Grid of featured pages on front page
 		'footer-links' => __( 'Footer Links', 'jointstheme' ) // Secondary nav in footer
 	)
@@ -25,6 +26,24 @@ function joints_top_nav() {
         'walker' => new Top_Bar_Walker(),
     ));
 } /* End Top Menu */
+
+// The Top Mobile Menu
+function joints_mobile_nav() {
+	 wp_nav_menu(array(
+        'container' => false,                           // Remove nav container
+        'container_class' => '',                        // Class of container
+        'menu' => 'The Mobile Menu', 'jointstheme',                                   // Menu name
+        'menu_class' => 'mobile-menu',            // Adding custom nav class
+        'theme_location' => 'mobile-nav',                // Where it's located in the theme
+        'before' => '',                                 // Before each link <a>
+        'after' => '',                                  // After each link </a>
+        'link_before' => '',                            // Before each link text
+        'link_after' => '',                             // After each link text
+        'depth' => 5,                                   // Limit the depth of the nav
+        'fallback_cb' => false,                         // Fallback function (see below)
+        //'walker' => new Mobile_Walker(),
+    ));
+} /* End Top Mobile Menu */
 
 function joints_off_canvas() {
 	    wp_nav_menu(array(
