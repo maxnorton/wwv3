@@ -1,8 +1,16 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	
+ 
+    	<?php if (has_post_thumbnail()) { ?>
     	<div class="river-featured-image">
-    		<?php the_post_thumbnail('large'); ?>
+    		<?php the_post_thumbnail('full'); ?>
     	</div>
+    	<?php } ?>
+
+    	<?php if ($post->ID == 4) { ?>
+    	<div data-sticky class="sticky">
+    		<?php joints_kern_nav(); ?>
+    	</div>
+    	<?php } ?>
 
 		<header class="article-header column small-12">
 			<?php $before_title = get_post_meta($post->ID, 'Before-title text', true);
@@ -18,7 +26,7 @@
 		    <?php the_content(); ?>
 		    <?php wp_link_pages(); ?>
 		</section> <!-- end article section -->
-							
+
 		<footer class="article-footer">
 			
 		</footer> <!-- end article footer -->

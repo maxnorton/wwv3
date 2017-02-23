@@ -8,17 +8,18 @@ Template Name: River page
 			
 			<div id="content">
 			
-				<div id="inner-content" class="row">
+				<?php get_template_part( 'parts/loop', 'wide-page' ); ?>
+				    					
+				</div> <!-- end #main -->
 
-					<?php get_template_part( 'parts/loop', 'page' ); ?>
-					    					
-    				</div> <!-- end #main -->
+				<br clear="all" />
 
-					<br clear="all" />
-
-    				<div class="row trip-details">
-						<?php 	$categories = get_the_category();
-								$current_river = get_object_vars($categories[0]);
+				<div class="row trip-details">
+					<div class="columns medium-12">
+					<?php 	$categories = get_the_category();
+						foreach ($categories as $category) {
+							if ($category->parent != 0) {
+								$current_river = $category->slug;
 								$args = array(
 									'post_type' => 'trip_details', 
 									'orderby' => 'title',
@@ -27,7 +28,7 @@ Template Name: River page
 										array(
 											'taxonomy' => 'category',
 											'field' => 'slug',
-											'terms' => 'kings-river'
+											'terms' => $current_river
 										)
 									)
 								);
@@ -46,11 +47,12 @@ Template Name: River page
 										<li><a class="button" href="#">Book Now</a></li>
 									</ul>
 
-						<?php endforeach; ?>
+						<?php 	endforeach;
+							}
+						} ?>
 					</div>
-				    
-				</div> <!-- end #inner-content -->
-    
+				</div>
+				        
 				<br clear="all" />
 
 			</div> <!-- end #content -->

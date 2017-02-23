@@ -5,7 +5,9 @@ register_nav_menus(
 		'main-nav' => __( 'The Main Menu', 'jointstheme' ),   // Main nav in header
 		'mobile-nav' => __( 'The Mobile Menu', 'jointstheme' ), // Main nav for mobile screens
 		'front-grid' => __( 'Pages grid', 'jointstheme' ), // Grid of featured pages on front page
-		'footer-links' => __( 'Footer Links', 'jointstheme' ) // Secondary nav in footer
+		'footer-links' => __( 'Footer Links', 'jointstheme' ), // Secondary nav in footer
+        'kern-grid' => __( 'Kern grid', 'jointstheme' ), // Grid of Kern sections on Kern parent page
+        'kern-nav' => __( 'Kern nav', 'jointstheme' ) // Navbar of Kern sections
 	)
 );
 
@@ -96,4 +98,23 @@ function joints_main_nav_fallback() {
 function joints_footer_links_fallback() {
 	/* You can put a default here if you like */
 }
+
+// Kern Nav Menu
+function joints_kern_nav() {
+     wp_nav_menu(array(
+        'container' => false,                           // Remove nav container
+        'container_class' => '',                        // Class of container
+        'menu' => 'The Kern Nav Menu', 'jointstheme',                                   // Menu name
+        'menu_class' => 'kern-nav-menu sticky',             // Adding custom nav class
+        'theme_location' => 'kern-nav',                // Where it's located in the theme
+        'before' => '',                                 // Before each link <a>
+        'after' => '',                                  // After each link </a>
+        'link_before' => '',                            // Before each link text
+        'link_after' => '',                             // After each link text
+        'depth' => 5,                                   // Limit the depth of the nav
+        'fallback_cb' => false,                         // Fallback function (see below)
+        //'walker' => new Kern_Bar_Walker(),
+    ));
+} /* End Kern Nav Menu */
+
 ?>

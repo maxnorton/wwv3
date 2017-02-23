@@ -26,6 +26,8 @@
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
 
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
 		<?php wp_head(); ?>
 
 		<!-- Drop Google Analytics here -->
