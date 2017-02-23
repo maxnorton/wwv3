@@ -79,9 +79,36 @@ x-.title-area {
 .mobile-menu,
 .mobile-menu li,
 .mobile-menu li a {
-	color: $black;
+	color: $white;
 	display: inline-block;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
 	padding: 0 10px 0 0;
+}
+
+.meta-wrapper a.menu-icon {
+	padding-right: 10px;
+}
+
+.mobile-menu li a {
+	padding: 10px;
+}
+
+.meta-wrapper .mobile-menu li a:hover,
+.meta-wrapper a.menu-icon:hover {
+	background-color: white;
+	color: $green;
+}
+
+.meta-wrapper a.menu-icon:hover span:after {
+	box-shadow: 0 0 0 1px $green, 0 7px 0 1px $green, 0 14px 0 1px $green;
+}
+
+.tab-bar .menu-icon {
+	font-family: $font-family-sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .top-bar-social {
@@ -356,11 +383,11 @@ h1.page-title {
 
 	body:not(.home) .meta-bar, 
 	.tab-bar {
-		background: url('../images/meta-bg.jpg') no-repeat center center;
-		background-size: cover;
+		x-background: url('../images/meta-bg.jpg') no-repeat center center;
+		x-background-size: cover;
 
 		&.top-bar {
-			background: $white;
+			x-background: $white;
 		}
 	}
 
@@ -432,8 +459,8 @@ h1.page-title {
 
 .tab-bar {
 	x-border-top: 5px solid $black;
-	box-shadow: 0 0 5px 1px #000;
-	box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
+	x-box-shadow: 0 0 5px 1px #000;
+	x-box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
 	position: relative; 
 
 	.left-small {
@@ -452,6 +479,7 @@ h1.page-title {
 
 .tab-bar h1.title {
 	font-family: "Trajan Pro", serif;
+	font-size: .9em;
 	x-text-transform: uppercase;
 
 	img {

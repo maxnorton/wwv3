@@ -19,7 +19,7 @@
 	</div>
 </div>
 
-<div class="show-for-small-only fixed">
+<div class="meta-wrapper show-for-small-only">
 <!-- cut top graphical section: <?php if ( !is_front_page() ) { echo 'style="padding-top: 22px;"'; } ?> -->
 	<nav class="tab-bar">
 		<!--section class="right tab-bar-section">
